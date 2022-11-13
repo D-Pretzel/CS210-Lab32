@@ -21,6 +21,7 @@ int main() {
 
     // Write your own code to test the base and recursive cases of collatz() to determine
     // that it is working correctly
+    printf("%d\n", collatz(5, 0));
 
     return 0;
 }
