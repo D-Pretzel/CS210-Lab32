@@ -18,12 +18,16 @@ int factorial(int N) {
 }
 
 int tail_factorial(int N, int accum) {
-    
-    return 0.0;
+
+    if (N < 2) {
+        return accum;
+    } else {
+        return tail_factorial(N-1, N*accum);
+    }
 }
 
 double calculateDecayDuration(int N, double halflifeInYears, double accum) {
-    
+
     return 0.0;
 }
 
